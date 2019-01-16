@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>忍把浮名换此生</title>
+  
+  <subtitle>须知少时凌云志，曾许人间第一流</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2019-01-16T11:53:36.307Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>supersy</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Nginx配置SSL及反向代理</title>
+    <link href="http://yoursite.com/2019/01/16/Nginx%E9%85%8D%E7%BD%AESSL%E5%8F%8A%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
+    <id>http://yoursite.com/2019/01/16/Nginx配置SSL及反向代理/</id>
+    <published>2019-01-16T11:52:45.000Z</published>
+    <updated>2019-01-16T11:53:36.307Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近搞毕设，前端准备使用 PWA，而 PWA 的一项要求就是网站应该是&lt;code&gt;https&lt;/code&gt;而非&lt;code&gt;http&lt;/code&gt;的，所以就查了一些资料，做一下简单的配置记录。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="nginx" scheme="http://yoursite.com/tags/nginx/"/>
+    
+      <category term="https" scheme="http://yoursite.com/tags/https/"/>
+    
+      <category term="ssl" scheme="http://yoursite.com/tags/ssl/"/>
+    
+      <category term="反向代理" scheme="http://yoursite.com/tags/%E5%8F%8D%E5%90%91%E4%BB%A3%E7%90%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://yoursite.com/2018/11/15/hello-world/"/>
+    <id>http://yoursite.com/2018/11/15/hello-world/</id>
+    <published>2018-11-15T01:21:05.704Z</published>
+    <updated>2018-11-15T01:21:05.705Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>做个作业_Promise</title>
+    <link href="http://yoursite.com/2018/10/28/%E5%81%9A%E4%B8%AA%E4%BD%9C%E4%B8%9A-Promise/"/>
+    <id>http://yoursite.com/2018/10/28/做个作业-Promise/</id>
+    <published>2018-10-28T04:12:09.000Z</published>
+    <updated>2018-11-15T01:21:05.722Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;之前就一直想专门写一篇自实现&lt;code&gt;Promsie&lt;/code&gt;的文章，但是由于各种事情，耽搁了下了，一直在代办事项列表里。&lt;/p&gt;
+&lt;p&gt;事实证明，有些事情你有计划，但是没做，是要摔跤的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;来吧，实现一个 Promsie(一点资讯技术面)&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Promise" scheme="http://yoursite.com/tags/Promise/"/>
+    
+      <category term="实现" scheme="http://yoursite.com/tags/%E5%AE%9E%E7%8E%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>跨域那些事儿之OPTIONS</title>
+    <link href="http://yoursite.com/2018/10/15/%E8%B7%A8%E5%9F%9F%E9%82%A3%E4%BA%9B%E4%BA%8B%E5%84%BF%E4%B9%8BOPTIONS/"/>
+    <id>http://yoursite.com/2018/10/15/跨域那些事儿之OPTIONS/</id>
+    <published>2018-10-15T10:25:33.000Z</published>
+    <updated>2018-11-15T01:21:05.736Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;10.16 百度面试时候，二面被问了一些关于预检请求 OPTIONS 的问题，发现自己对于跨域的理解还是处于很&lt;strong&gt;肤浅&lt;/strong&gt;的层面：&lt;/p&gt;
+&lt;p&gt;只是知道受&lt;strong&gt;浏览器同源策略&lt;/strong&gt;限制，当请求与当前&lt;strong&gt;协议&lt;/strong&gt;、&lt;strong&gt;域名&lt;/strong&gt;、&lt;strong&gt;端口&lt;/strong&gt;出现不一致情况时，浏览器就会在真正的业务请求发送之前，先发送一个&lt;strong&gt;OPTIONS&lt;/strong&gt;请求来获取允许跨域的方法。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="跨域" scheme="http://yoursite.com/tags/%E8%B7%A8%E5%9F%9F/"/>
+    
+      <category term="预检请求" scheme="http://yoursite.com/tags/%E9%A2%84%E6%A3%80%E8%AF%B7%E6%B1%82/"/>
+    
+      <category term="CORS" scheme="http://yoursite.com/tags/CORS/"/>
+    
+      <category term="OPTIONS" scheme="http://yoursite.com/tags/OPTIONS/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JS闭包与内存泄漏</title>
+    <link href="http://yoursite.com/2018/10/12/JS%E9%97%AD%E5%8C%85%E4%B8%8E%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F/"/>
+    <id>http://yoursite.com/2018/10/12/JS闭包与内存泄漏/</id>
+    <published>2018-10-12T04:03:57.000Z</published>
+    <updated>2018-11-15T01:21:05.682Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;函数对象可以通过作用域链相互关联起来，函数体内部变量都可以保存在函数作用域内，这种特性被称为——闭包。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;从根本的定义来说，所有的JavaScript函数都是闭包，他们都是对象，且都关联到作用域链。&lt;/p&gt;
+&lt;p&gt;但是，常常在面试中被问到的闭包，大多都是指的特殊情况下，即“内部函数访问了外部作用域的变量，导致该变量一直在内存中，可以一直访问”的情况。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="闭包" scheme="http://yoursite.com/tags/%E9%97%AD%E5%8C%85/"/>
+    
+      <category term="内存泄漏" scheme="http://yoursite.com/tags/%E5%86%85%E5%AD%98%E6%B3%84%E6%BC%8F/"/>
+    
+      <category term="GC" scheme="http://yoursite.com/tags/GC/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>从输入URL到渲染页面的经历</title>
+    <link href="http://yoursite.com/2018/10/03/%E4%BB%8E%E8%BE%93%E5%85%A5URL%E5%88%B0%E6%B8%B2%E6%9F%93%E9%A1%B5%E9%9D%A2%E7%9A%84%E7%BB%8F%E5%8E%86/"/>
+    <id>http://yoursite.com/2018/10/03/从输入URL到渲染页面的经历/</id>
+    <published>2018-10-03T01:28:19.000Z</published>
+    <updated>2018-11-15T01:21:05.721Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;昨天百词斩视频一面，从经典问题&lt;strong&gt;URL 从输入到展示网页的过程&lt;/strong&gt;引发出了一系列血案。。。直接从自信问到自卑，而且是体无完肤支离破碎那种。。。开始后悔&lt;strong&gt;为啥不复习《计算机网络》&lt;/strong&gt;~&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="TCP/IP" scheme="http://yoursite.com/tags/TCP-IP/"/>
+    
+      <category term="HTTP headers" scheme="http://yoursite.com/tags/HTTP-headers/"/>
+    
+      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>gulp与webpack</title>
+    <link href="http://yoursite.com/2018/09/19/gulp%E4%B8%8Ewebpack/"/>
+    <id>http://yoursite.com/2018/09/19/gulp与webpack/</id>
+    <published>2018-09-19T08:25:44.000Z</published>
+    <updated>2018-11-15T01:21:05.704Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自从前端在项目开发中占比越发重要，跳脱了静态页面以及动画实现的单一工作之后，前端项目工程化的口号被喊响，加之三大框架把我们命令式的开发转为声明式的开发，使得前端工程师不再过度关注数据变更之后视图要如何变动的问题，前端项目则变得越来越大，越来越难以维护。这时候，自动构建工具出现在人们眼中。&lt;/p&gt;
+&lt;p&gt;前端构建工具经历了漫长的衍生期，从Grunt到gulp，再到webpack，每一种工具在其统治时期内都显得相当耀眼。&lt;/p&gt;
+&lt;p&gt;就目前来看，在前端面试过程中，gulp与webpack总会被提及，尤其是后者，在模块化越发流行的今天，更是一时间风头无二。似乎问“&lt;strong&gt;有没有自己配置过webpack&lt;/strong&gt;”成了一个必须项，并且“&lt;strong&gt;有过了解，可以修改配置，但没有自己实现过&lt;/strong&gt;”的回答总显得那么尴尬……&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="gulp" scheme="http://yoursite.com/tags/gulp/"/>
+    
+      <category term="webpack" scheme="http://yoursite.com/tags/webpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>经典闭包问题与Promise</title>
+    <link href="http://yoursite.com/2018/09/12/%E7%BB%8F%E5%85%B8%E9%97%AD%E5%8C%85%E9%97%AE%E9%A2%98%E4%B8%8EPromise/"/>
+    <id>http://yoursite.com/2018/09/12/经典闭包问题与Promise/</id>
+    <published>2018-09-12T10:14:36.000Z</published>
+    <updated>2018-11-15T01:21:05.733Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;what&quot;&gt;&lt;a href=&quot;#what&quot; class=&quot;headerlink&quot; title=&quot;what&quot;&gt;&lt;/a&gt;what&lt;/h3&gt;&lt;figure class=&quot;highlight javascript&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;for&lt;/span&gt;(&lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; i = &lt;span class=&quot;number&quot;&gt;0&lt;/span&gt;; i &amp;lt; &lt;span class=&quot;number&quot;&gt;10&lt;/span&gt;; i++) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    setTimeout(&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt;(&lt;span class=&quot;params&quot;&gt;&lt;/span&gt;) &lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;built_in&quot;&gt;console&lt;/span&gt;.log(i);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &amp;#125;, &lt;span class=&quot;number&quot;&gt;500&lt;/span&gt;);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;// 依次打印出 10 10 10 10 10 10 10 10 10 10&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="闭包" scheme="http://yoursite.com/tags/%E9%97%AD%E5%8C%85/"/>
+    
+      <category term="Promise" scheme="http://yoursite.com/tags/Promise/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>http方法及其幂等性</title>
+    <link href="http://yoursite.com/2018/08/30/http%E6%96%B9%E6%B3%95%E5%8F%8A%E5%85%B6%E5%B9%82%E7%AD%89%E6%80%A7/"/>
+    <id>http://yoursite.com/2018/08/30/http方法及其幂等性/</id>
+    <published>2018-08-30T09:42:55.000Z</published>
+    <updated>2018-11-15T01:21:05.708Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;基于&lt;code&gt;HTTP&lt;/code&gt;协议的api是当下最流行的服务提供方式，从根本上解决了前后端分离开发的技术难点。当下的&lt;code&gt;HTTPS&lt;/code&gt;也仅仅是对&lt;code&gt;HTTP&lt;/code&gt;的封装，而并非一种新的协议，这一点在之前的&lt;a href=&quot;https://blog.supersy.xyz/2018/08/15/https%E5%B0%8F%E8%AE%B0/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https小记&lt;/a&gt;有过阐述。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="HTTP" scheme="http://yoursite.com/tags/HTTP/"/>
+    
+      <category term="幂等性" scheme="http://yoursite.com/tags/%E5%B9%82%E7%AD%89%E6%80%A7/"/>
+    
+      <category term="缓存" scheme="http://yoursite.com/tags/%E7%BC%93%E5%AD%98/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue-数据劫持+发布订阅</title>
+    <link href="http://yoursite.com/2018/08/22/Vue-%E6%95%B0%E6%8D%AE%E5%8A%AB%E6%8C%81-%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85/"/>
+    <id>http://yoursite.com/2018/08/22/Vue-数据劫持-发布订阅/</id>
+    <published>2018-08-22T05:16:15.000Z</published>
+    <updated>2018-11-15T01:21:05.692Z</updated>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;
+&lt;p&gt;Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;code&gt;Vue&lt;/code&gt;的数据绑定机制不同于&lt;code&gt;AngularJs&lt;/code&gt;的脏检查机制，而是基于&lt;code&gt;Object.defineProperty()&lt;/code&gt;来实现的，通过这个函数可以监测到&lt;code&gt;set&lt;/code&gt;和&lt;code&gt;get&lt;/code&gt;的事件。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+    
+      <category term="数据劫持" scheme="http://yoursite.com/tags/%E6%95%B0%E6%8D%AE%E5%8A%AB%E6%8C%81/"/>
+    
+      <category term="发布订阅" scheme="http://yoursite.com/tags/%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>面试思维导图</title>
+    <link href="http://yoursite.com/2018/08/21/%E9%9D%A2%E8%AF%95%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/"/>
+    <id>http://yoursite.com/2018/08/21/面试思维导图/</id>
+    <published>2018-08-21T10:15:10.000Z</published>
+    <updated>2018-11-15T01:21:05.739Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;根据&lt;a href=&quot;https://yuchengkai.cn/docs/zh/frontend/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;InterviewMap&lt;/a&gt;画的思维导图，然后在一些细小的地方做了一点补充。。。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="面试" scheme="http://yoursite.com/tags/%E9%9D%A2%E8%AF%95/"/>
+    
+      <category term="思维导图" scheme="http://yoursite.com/tags/%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>https小记</title>
+    <link href="http://yoursite.com/2018/08/15/https%E5%B0%8F%E8%AE%B0/"/>
+    <id>http://yoursite.com/2018/08/15/https小记/</id>
+    <published>2018-08-15T07:51:21.000Z</published>
+    <updated>2018-11-15T01:21:05.706Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;最近看了几篇关于 HTTPS 的文章，讲的由浅入深，十分细致。所以这里也结合个人理解，做一个简单记录。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ws1.sinaimg.cn/large/0064OUUqly1fuafo0hm18j30ka06z44d.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;HTTPS&lt;/code&gt;是 &lt;code&gt;HTTP Over SSL/TLS&lt;/code&gt;。是基于&lt;code&gt;SSL/TLS&lt;/code&gt;的&lt;code&gt;HTTP&lt;/code&gt;，或者说是对&lt;code&gt;HTTP&lt;/code&gt;做了一层封装。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="https" scheme="http://yoursite.com/tags/https/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Node爬取《西虹市首富》短评生成词云</title>
+    <link href="http://yoursite.com/2018/07/31/Node%E7%88%AC%E5%8F%96%E3%80%8A%E8%A5%BF%E8%99%B9%E5%B8%82%E9%A6%96%E5%AF%8C%E3%80%8B%E7%9F%AD%E8%AF%84%E7%94%9F%E6%88%90%E8%AF%8D%E4%BA%91/"/>
+    <id>http://yoursite.com/2018/07/31/Node爬取《西虹市首富》短评生成词云/</id>
+    <published>2018-07-31T11:35:05.000Z</published>
+    <updated>2018-11-15T01:21:05.686Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;近期《西虹市首富》3 天破 9 亿的新闻铺天盖地，作为开心麻花又一力作，想必从笑料方面不会让人失望。然后看到掘金小妹发布了朋友圈，一篇爬取西虹市首富猫眼短评数据生成词云的文章，点进去一看，是 python 版的源码。然后忽发奇想，何不用 node 实现一版呢？&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Node" scheme="http://yoursite.com/tags/Node/"/>
+    
+      <category term="爬虫" scheme="http://yoursite.com/tags/%E7%88%AC%E8%99%AB/"/>
+    
+      <category term="词云" scheme="http://yoursite.com/tags/%E8%AF%8D%E4%BA%91/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>基于Express/AngularJs/Mysql的员工管理系统</title>
+    <link href="http://yoursite.com/2018/07/30/%E5%9F%BA%E4%BA%8EExpress-AngularJs-Mysql%E7%9A%84%E5%91%98%E5%B7%A5%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
+    <id>http://yoursite.com/2018/07/30/基于Express-AngularJs-Mysql的员工管理系统/</id>
+    <published>2018-07-30T01:38:37.000Z</published>
+    <updated>2018-11-15T01:21:05.726Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;express-angularjs-EMS&quot;&gt;&lt;a href=&quot;#express-angularjs-EMS&quot; class=&quot;headerlink&quot; title=&quot;express-angularjs-EMS&quot;&gt;&lt;/a&gt;express-angularjs-EMS&lt;/h1&gt;&lt;p&gt;利用 Express+MySQL+angularJs 实现的简易管理系统&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="AngularJs" scheme="http://yoursite.com/tags/AngularJs/"/>
+    
+      <category term="Express" scheme="http://yoursite.com/tags/Express/"/>
+    
+      <category term="Mysql" scheme="http://yoursite.com/tags/Mysql/"/>
+    
+      <category term="管理系统" scheme="http://yoursite.com/tags/%E7%AE%A1%E7%90%86%E7%B3%BB%E7%BB%9F/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>localforage持久化存储</title>
+    <link href="http://yoursite.com/2018/07/29/localforage%E6%8C%81%E4%B9%85%E5%8C%96%E5%AD%98%E5%82%A8/"/>
+    <id>http://yoursite.com/2018/07/29/localforage持久化存储/</id>
+    <published>2018-07-29T12:48:16.000Z</published>
+    <updated>2018-11-15T01:21:05.710Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;数据持久化&quot;&gt;&lt;a href=&quot;#数据持久化&quot; class=&quot;headerlink&quot; title=&quot;数据持久化&quot;&gt;&lt;/a&gt;数据持久化&lt;/h3&gt;&lt;p&gt;前端数据持久化是在前端业务加重的环境下所增加的一项很平常的需求。对于用户一些基本信息、token、以及一些应用中的配置项，存储在浏览器端，从而达到&lt;strong&gt;记录状态&lt;/strong&gt;以及&lt;strong&gt;离线共享&lt;/strong&gt;等功能。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="js" scheme="http://yoursite.com/tags/js/"/>
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="localforage" scheme="http://yoursite.com/tags/localforage/"/>
+    
+      <category term="前端存储" scheme="http://yoursite.com/tags/%E5%89%8D%E7%AB%AF%E5%AD%98%E5%82%A8/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>mpa小札</title>
+    <link href="http://yoursite.com/2018/07/29/mpa%E5%B0%8F%E6%9C%AD/"/>
+    <id>http://yoursite.com/2018/07/29/mpa小札/</id>
+    <published>2018-07-29T08:56:47.000Z</published>
+    <updated>2018-11-15T01:21:05.712Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Spa 使得前端项目真正得以工程化独立化，脱离后端约束。&lt;/p&gt;
+&lt;p&gt;而 Single-spa 则通过配置的方式使得多框架多单页应用成为现实，一个项目拆分成多个独立的子项目，按需加载。&lt;/p&gt;
+&lt;p&gt;基于 single-spa 的 Mooa 则通过 容器的理念以及主-从设计，使得逻辑上划分代码区域的子应用在物理上也完全区分开来。多个应用独立开发，独立部署，互不影响。但展示给用户的，却是一个完整的应用。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="pwa" scheme="http://yoursite.com/tags/pwa/"/>
+    
+      <category term="mpa" scheme="http://yoursite.com/tags/mpa/"/>
+    
+      <category term="杂文" scheme="http://yoursite.com/tags/%E6%9D%82%E6%96%87/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vue仿网易云音乐移动端（个人项目）</title>
+    <link href="http://yoursite.com/2018/07/29/Vue%E4%BB%BF%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90%E7%A7%BB%E5%8A%A8%E7%AB%AF%EF%BC%88%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE%EF%BC%89/"/>
+    <id>http://yoursite.com/2018/07/29/Vue仿网易云音乐移动端（个人项目）/</id>
+    <published>2018-07-29T08:43:31.000Z</published>
+    <updated>2018-11-15T01:21:05.694Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;vue-music-h5&quot;&gt;&lt;a href=&quot;#vue-music-h5&quot; class=&quot;headerlink&quot; title=&quot;vue-music-h5&quot;&gt;&lt;/a&gt;vue-music-h5&lt;/h1&gt;&lt;p&gt;Vue 仿网易云音乐，移动版。（可通过 cordova 直接打包成 apk）&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="Vue" scheme="http://yoursite.com/tags/Vue/"/>
+    
+      <category term="materialDesign" scheme="http://yoursite.com/tags/materialDesign/"/>
+    
+      <category term="个人项目" scheme="http://yoursite.com/tags/%E4%B8%AA%E4%BA%BA%E9%A1%B9%E7%9B%AE/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>win10增加右键打开CMD功能</title>
+    <link href="http://yoursite.com/2018/07/29/win10%E5%A2%9E%E5%8A%A0%E5%8F%B3%E9%94%AE%E6%89%93%E5%BC%80CMD%E5%8A%9F%E8%83%BD/"/>
+    <id>http://yoursite.com/2018/07/29/win10增加右键打开CMD功能/</id>
+    <published>2018-07-29T08:25:30.000Z</published>
+    <updated>2018-11-15T01:21:05.716Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;自从 win10 全面使用 powershell 代替 cmd 之后，就各种不爽……虽然说 powershell 是 cmd 的超集，cmd 能做的，powershell 都能做，但问题是，当用惯了 cmd 之后，再用 powershell，即便用起来都一样，可你还是感觉不一样~而且，真的会有灵异事件，，环境变量在 powershell 找不到，cmd 则成功执行了~&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="系统" scheme="http://yoursite.com/tags/%E7%B3%BB%E7%BB%9F/"/>
+    
+      <category term="win10" scheme="http://yoursite.com/tags/win10/"/>
+    
+      <category term="cmd" scheme="http://yoursite.com/tags/cmd/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm相关</title>
+    <link href="http://yoursite.com/2018/07/28/npm%E7%9B%B8%E5%85%B3/"/>
+    <id>http://yoursite.com/2018/07/28/npm相关/</id>
+    <published>2018-07-28T13:50:22.000Z</published>
+    <updated>2018-11-15T01:21:05.714Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          
+        
+      
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="npm" scheme="http://yoursite.com/tags/npm/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>cordova打包Vue项目</title>
+    <link href="http://yoursite.com/2018/07/28/cordova%E6%89%93%E5%8C%85Vue%E9%A1%B9%E7%9B%AE/"/>
+    <id>http://yoursite.com/2018/07/28/cordova打包Vue项目/</id>
+    <published>2018-07-28T13:49:41.000Z</published>
+    <updated>2018-11-15T01:21:05.699Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;1-基础环境&quot;&gt;&lt;a href=&quot;#1-基础环境&quot; class=&quot;headerlink&quot; title=&quot;1. 基础环境&quot;&gt;&lt;/a&gt;1. 基础环境&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;Vue 项目环境：vue-cli+webpack&lt;/li&gt;
+&lt;li&gt;cordova 插件：&lt;code&gt;npm install cordova -g&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;安卓环境：android SDK&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="技术" scheme="http://yoursite.com/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+      <category term="cordova" scheme="http://yoursite.com/tags/cordova/"/>
+    
+      <category term="vue" scheme="http://yoursite.com/tags/vue/"/>
+    
+  </entry>
+  
+</feed>
